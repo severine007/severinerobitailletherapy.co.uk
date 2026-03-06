@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Green background -->
+  <rect width="200" height="200" fill="#3a6140"/>
+
+  <!-- Tree trunk -->
+  <rect x="90" y="110" width="20" height="70" fill="#5d4e37" rx="2"/>
+
+  <!-- Tree foliage - oak tree shape with rounded crown -->
+  <!-- Left upper -->
+  <circle cx="85" cy="85" r="40" fill="#7a9e7e"/>
+  <!-- Right upper -->
+  <circle cx="115" cy="85" r="40" fill="#7a9e7e"/>
+  <!-- Center top -->
+  <circle cx="100" cy="65" r="45" fill="#7a9e7e"/>
+  <!-- Left lower -->
+  <circle cx="75" cy="105" r="35" fill="#5d8e6a"/>
+  <!-- Right lower -->
+  <circle cx="125" cy="105" r="35" fill="#5d8e6a"/>
+
+  <!-- Highlight for depth -->
+  <circle cx="95" cy="70" r="12" fill="#c5ddc7" opacity="0.3"/>
+</svg>
