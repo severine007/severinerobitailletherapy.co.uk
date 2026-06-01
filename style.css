@@ -2656,6 +2656,11 @@ a.contact-detail-row__value:hover { color: var(--forest); }
     object-fit: cover;
     object-position: center 20%;
   }
+  /* Version A: photo at top */
+  .mobile-hero-photo--top {
+    height: 320px;
+    object-position: center 30%;
+  }
   .approach-section__photo { display: none !important; }
 
   /* Word Cloud */
