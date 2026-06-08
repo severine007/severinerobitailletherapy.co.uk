@@ -985,7 +985,7 @@ strong {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: rgba(255,255,255,0.7);
-  margin-bottom: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 
 /* ── Contact rows ── */
@@ -1023,6 +1023,9 @@ strong {
 /* Cols 2–4 overrides — bigger, whiter */
 .footer-1__col--lower .contact-row {
   font-size: 1.15rem;
+  color: rgba(255,255,255,0.78);
+}
+.footer-1__col--lower .contact-row a {
   color: rgba(255,255,255,0.78);
 }
 
