@@ -27,41 +27,66 @@
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "ProfessionalService",
+        {
+      "@type": "MedicalBusiness",
       "@id": "https://www.severinerobitailletherapy.co.uk/#practice",
       "name": "Séverine Robitaille Psychotherapy",
-      "url": "https://www.severinerobitailletherapy.co.uk/",
-      "email": "contact@severinerobitailletherapy.co.uk",
+      "description": "Psychodynamic counselling and psychotherapy for adults in Berkhamsted (Hertfordshire) and London. In-person, outdoor and online sessions with Séverine Robitaille MSc, BACP registered.",
+      "url": "https://www.severinerobitailletherapy.co.uk",
       "telephone": "+447368813030",
-      "priceRange": "£80 per session",
-      "areaServed": [
-        "Berkhamsted",
-        "London"
+      "email": "contact@severinerobitailletherapy.co.uk",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "180-186 Kings Cross Road",
+          "addressLocality": "London",
+          "postalCode": "WC1X 9DE",
+          "addressCountry": "GB"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "First Floor, Buckland House, Dower Mews, Rear of 108 High Street",
+          "addressLocality": "Berkhamsted",
+          "addressRegion": "Hertfordshire",
+          "postalCode": "HP4 2BL",
+          "addressCountry": "GB"
+        }
       ],
-      "knowsLanguage": [
-        "en",
-        "fr"
-      ]
+      "location": [
+        {
+          "@type": "Place",
+          "name": "King's Cross practice",
+          "geo": { "@type": "GeoCoordinates", "latitude": 51.5295, "longitude": -0.1196 }
+        },
+        {
+          "@type": "Place",
+          "name": "Berkhamsted practice, Buckland House",
+          "geo": { "@type": "GeoCoordinates", "latitude": 51.7592, "longitude": -0.5605 }
+        }
+      ],
+      "priceRange": "£80 per session",
+      "areaServed": ["Berkhamsted", "Hertfordshire", "Tring", "Hemel Hempstead", "Chesham", "St Albans", "Islington", "Angel", "North London", "London"],
+      "availableLanguage": [
+        { "@type": "Language", "name": "English" },
+        { "@type": "Language", "name": "French", "alternateName": "Français" }
+      ],
+      "founder": { "@id": "https://www.severinerobitailletherapy.co.uk/#severine" }
     },
     {
       "@type": "Person",
       "@id": "https://www.severinerobitailletherapy.co.uk/#severine",
       "name": "Séverine Robitaille",
-      "jobTitle": "Psychodynamic Counsellor & Psychotherapist",
-      "worksFor": {
-        "@id": "https://www.severinerobitailletherapy.co.uk/#practice"
-      },
+      "jobTitle": "Psychodynamic Counsellor and Psychotherapist",
+      "honorificSuffix": "MSc",
+      "worksFor": { "@id": "https://www.severinerobitailletherapy.co.uk/#practice" },
       "memberOf": {
         "@type": "Organization",
-        "name": "British Association for Counselling and Psychotherapy (BACP)",
+        "name": "British Association for Counselling and Psychotherapy",
+        "alternateName": "BACP",
         "url": "https://www.bacp.co.uk"
       },
       "identifier": "BACP 417038",
-      "knowsLanguage": [
-        "en",
-        "fr"
-      ],
+      "knowsLanguage": ["en", "fr"],
       "sameAs": [
         "https://www.bacp.co.uk/therapists/417038/severine-robitaille/",
         "https://www.counselling-directory.org.uk/counsellors/severine-robitaille",
